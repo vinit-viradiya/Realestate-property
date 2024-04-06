@@ -1,3 +1,6 @@
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
 var swiper = new Swiper(".services-slider", {
   slidesPerView: 1,
   spaceBetween: 30,
